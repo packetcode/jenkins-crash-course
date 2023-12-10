@@ -33,8 +33,12 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 #### Install and use node 16 (Linked angular project needs node 16 specifically)
 ```
+nvm install 16
 nvm use 16
 ```
+
+#### Add Node Js to Tools
+Node Js version - 16.20.0
 
 ## # Building Freestyle Project
 
